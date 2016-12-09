@@ -1,0 +1,41 @@
+body {
+	background: #ccc;
+}
+
+.drumkit {
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+
+.drumkit .key {
+	width: 100px;
+	height: 100px;
+	margin: 0 15px;
+	border: 2px solid;
+	border-color: blue;
+	transition: all 0.5s;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 25px 0;
+}
+
+.key p {
+	text-align: center;
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+.key span {
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+}
+
+.playing {
+	border: 2px solid;	
+	box-shadow: 0 0 10px blue;
+	transform: scale(1.2);
+}
